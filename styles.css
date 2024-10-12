@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+div {
+    margin: 20px;
+}
+
+#links_div {
+    margin-top: 10vh;
+    min-height: 100px;
+    text-align: right;
+}
+
+.link {
+    margin: 5px;
+    margin-right: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+    display: block;
+}
+
+.link:hover {
+    color: black;
+
+}
+
+#google_logo {
+    width: 90vw;
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+
+
+#mainForm input[type="text"],
+#mainForm input[type="submit"] {
+    display: block;
+    border-radius: 20px;
+    height: 40px;
+    margin: 30px auto;
+}
+
+#mainForm input[type="text"] {
+    width: 80vw;
+    max-width: 700px;
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#mainForm input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+#mainForm input[type="submit"][name="btnI"] {
+    width: auto;
+    height: 30px;
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: #72a5f7;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+#mainForm input[type="submit"]:hover {
+    background-color: #4583e7;
+}
