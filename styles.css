@@ -36,14 +36,15 @@ div {
 
 
 #mainForm input[type="text"],
-#mainForm input[type="submit"] {
+#button_box {
     display: block;
-    border-radius: 20px;
+
     height: 40px;
     margin: 30px auto;
 }
 
 #mainForm input[type="text"] {
+    border-radius: 20px;
     width: 80vw;
     max-width: 700px;
     border: 1px solid lightgray;
@@ -52,28 +53,31 @@ div {
     padding-left: 30px;
 }
 
-#mainForm input[type="submit"] {
-    width: auto;
-    padding: 10px 20px;
-    background-color: #4285F4;
-    color: white;
-    border: none;
-    cursor: pointer;
+#button_box {
+    width: 345px;
+
 
 }
 
+#mainForm input[type="submit"],
 #mainForm input[type="submit"][name="btnI"] {
-    width: auto;
-    height: 30px;
-    font-size: 10px;
-    padding: 5px 10px;
-    background-color: #72a5f7;
-    color: white;
-    border: none;
+    width: 150px;
+    margin: 0px 10px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: #dfdfdf;
+    color: rgb(48, 48, 48);
+    border: 1px solid white;
     cursor: pointer;
 
 }
+
+#mainForm>input[type="submit"] {
+    display: block;
+    margin: 0px auto;
+}
+
 
 #mainForm input[type="submit"]:hover {
-    background-color: #4583e7;
+    border: 1px solid gray;
 }
